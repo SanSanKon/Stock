@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  background: #a37cf0;
+  height: 100vh;
+  text-align: center;
+  width: 100vw;
+  h1 {
+    background-color: #640062;
+    color: #e6ddd6;
+    margin: 0 0 1rem;
+    padding: 0.5rem;
+  }
+}
+
+@import './styles/stockTable.scss';
+@import './styles/pagination.scss';

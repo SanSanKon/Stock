@@ -1,0 +1,16 @@
+.stock-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 1rem;
+    .stock-table, thead, tr, th, tbody, td {
+        border: 2px solid #3a3153;
+        border-collapse: collapse;
+    }
+    tr, th, td {
+        color: #fefdfd;
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    
+}

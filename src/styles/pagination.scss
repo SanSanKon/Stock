@@ -1,0 +1,31 @@
+.pagination-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    .button-prev, 
+    .button-next {
+        color: #fefdfd;
+        background-color: #3a3153;
+        border-radius: 15%;
+        padding: 0.5rem;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .button-prev {
+        margin: 0 0.5rem 0 0;
+    }
+    .page-number {
+        color: #fefdfd;
+        font-weight: 600;
+        margin: 0 0.5rem 0 0;
+    }
+    .disabled {
+        background-color: grey;
+        border-radius: 15%;
+        color: black;
+        margin: 0 0.5rem 0 0;
+        padding: 0.5rem;
+    }
+}
